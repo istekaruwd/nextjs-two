@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Take the words best work here",
+        "shortDescription": "We provides always our best services for our clients and always try to achieve our client's trust and satisfaction.",
+        "bg": "/assets/img/slider/01.jpg",
+        "btnText": "Read more",
+        "btnLink": "/"
+    },
+    {
+        "title": "Take The Words Best Idea Here",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ducimus labore rem repudiandae beatae unde.",
+        "bg": "/assets/img/slider/02.jpg",
+        "btnText": "Read more",
+        "btnLink": "/"
+    },
+    {
+        "title": "Portlio the best portfolio React Next Js template",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ducimus labore rem repudiandae beatae unde.",
+        "bg": "/assets/img/slider/03.jpg",
+        "btnText": "Read more",
+        "btnLink": "/"
+    }
+]

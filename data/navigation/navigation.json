@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Home",
+        "link": "home"
+    },
+    {
+        "title": "About us",
+        "link": "about"
+    },
+    {
+        "title": "Portfolio",
+        "link": "portfolio"
+    },
+    {
+        "title": "Our skills",
+        "link": "skills"
+    },
+    {
+        "title": "Our team",
+        "link": "team"
+    },
+    {
+        "title": "Pricing table",
+        "link": "pricing"
+    },
+    {
+        "title": "Testimonials",
+        "link": "testimonial"
+    },
+    {
+        "title": "Blog",
+        "link": "blog"
+    },
+    {
+        "title": "Contact us",
+        "link": "contact"
+    }
+]

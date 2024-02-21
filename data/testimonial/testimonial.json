@@ -1,0 +1,20 @@
+[
+    {
+        "imgUrl": "/assets/img/testimonial/01.jpg",
+        "shortDescription": "I wanted to mention that these days, when the opposite of good customer and tech support tends to be the norm, it’s always great having a team like you guys at Fancy!",
+        "name": "Josh wolf",
+        "position": "Owner at brandStorm studios"
+    },
+    {
+        "imgUrl": "/assets/img/testimonial/02.jpg",
+        "shortDescription": "Tiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.",
+        "name": "Clare dane",
+        "position": "Owner at brandStorm studios"
+    },
+    {
+        "imgUrl": "/assets/img/testimonial/03.jpg",
+        "shortDescription": "It’s not just a pretty face. I am also thrilled by the quality of support. It is fast, reliable and has no complications at all. This author is definitely a five star hero!",
+        "name": "John smith",
+        "position": "Owner at brandStorm studios"
+    }
+]

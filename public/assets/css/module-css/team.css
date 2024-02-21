@@ -1,0 +1,78 @@
+.single-team-member {
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    perspective: 1000px;
+}
+.single-team-con {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    transition: var(--transition);
+    transform: rotateY(97deg);
+    transform-origin: left;
+    visibility: hidden;
+    background-color: var(--black-alt);
+}
+.single-team-member:hover .single-team-con {
+    transform: rotateY(0);
+    visibility: visible;
+}
+.single-team-txt {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.single-team-txt ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.single-team-txt ul li a {
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-team-txt ul li a:hover {
+    background-color: var(--primary);
+}
+.single-team-txt h3 {
+    margin-top: 20px;
+    color: var(--primary);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.single-team-txt h3 span {
+    display: block;
+    font-size: 18px;
+    margin-top: 5px;
+    color: var(--white);
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-team-con {
+        width: 90%;
+    }
+    .single-team-txt ul li a {
+        width: 40px;
+        height: 40px;
+    }
+    .single-team-txt h3 {
+        font-size: 18px;
+    }
+    .single-team-txt h3 span {
+        font-size: 16px;
+    }
+}

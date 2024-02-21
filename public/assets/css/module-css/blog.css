@@ -1,0 +1,150 @@
+.single-blog {
+    box-shadow: 0 0 3px var(--opacity-10);
+    margin-bottom: 50px;
+}
+.single-blog-thumb {
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+}
+.single-blog-thumb img {
+    width: 100%;
+}
+.single-blog-overlay {
+    position: absolute;
+    inset: 0;
+    transform: rotate(45deg) scale(0, 2);
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    z-index: 1;
+    background-color: var(--opacity-65);
+}
+.single-blog-overlay-link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+}
+.single-blog-overlay-link a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: var(--white);
+    border: 1px solid var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-blog:hover .single-blog-overlay {
+    transform: rotate(45deg) scale(1.5, 2);
+    visibility: visible;
+}
+.single-blog:hover .single-blog-overlay-link {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-blog-con {
+    padding: 0 15px 15px;
+}
+.single-blog-date {
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.single-blog-title {
+    margin: 0 0 10px;
+    text-transform: capitalize;
+}
+.single-blog-title a {
+    text-decoration: none;
+}
+
+ul.entry-meta {
+    margin-bottom: 10px;
+}
+ul.entry-meta li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    padding-top: 5px;
+    text-transform: capitalize;
+    position: relative;
+}
+ul.entry-meta li:after {
+    content: '';
+    position: absolute;
+    height: 90%;
+    width: 1px;
+    top: 10%;
+    right: -10px;
+    transform: rotate(15deg);
+    background-color: var(--body-font-color);
+}
+ul.entry-meta li:last-child:after {
+    display: none;
+}
+ul.entry-meta li a {
+    margin-left: 3px;
+    display: inline-block;
+    color: var(--body-font-color);
+}
+
+.single-blog-read-btn {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+.single-blog-read-btn a {
+    text-transform: uppercase;
+    color: var(--body-font-color);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+.single-blog-read-btn a:hover {
+    color: var(--primary);
+}
+
+/* BLOG PAGINATION */
+
+.navigation.pagination {
+    display: block;
+    padding: 50px 0 0;
+    margin: 0;
+}
+.nav-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 700;
+}
+.nav-links span.page-numbers,
+.nav-links a.page-numbers {
+    font-size: 21px;
+    height: 45px;
+    width: 45px;
+    border: 1px solid var(--border-colour-two);
+    color: var(--border-colour-two);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+.nav-links a.page-numbers:hover,
+.nav-links span.page-numbers.current {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.nav-links span.page-numbers.dots {
+    border-color: transparent;
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "heading": "Website design",
+        "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A harum quibusdam sapiente nobis hic. Quaerat aperiam ad, fuga assumenda facere tempora? Amet quod debitis, sed, nam impedit eius ab atque.",
+        "icon": "/assets/img/about/icon-01.svg"
+    },
+    {
+        "heading": "Digital marketing",
+        "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A harum quibusdam sapiente nobis hic. Quaerat aperiam ad, fuga assumenda facere tempora? Amet quod debitis, sed, nam impedit eius ab atque.",
+        "icon": "/assets/img/about/icon-02.svg"
+    },
+    {
+        "heading": "Website development",
+        "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A harum quibusdam sapiente nobis hic. Quaerat aperiam ad, fuga assumenda facere tempora? Amet quod debitis, sed, nam impedit eius ab atque.",
+        "icon": "/assets/img/about/icon-03.svg"
+    },
+    {
+        "heading": "Graphic design",
+        "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A harum quibusdam sapiente nobis hic. Quaerat aperiam ad, fuga assumenda facere tempora? Amet quod debitis, sed, nam impedit eius ab atque.",
+        "icon": "/assets/img/about/icon-04.svg"
+    }
+]

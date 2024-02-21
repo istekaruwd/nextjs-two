@@ -1,0 +1,44 @@
+/* Contact Info */
+
+.single-contact-info {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-info-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.contact-info-icon img {
+    width: 18px;
+    height: auto;
+}
+.single-contact-info .text span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Contact Form */
+
+.contact-form {
+    margin-top: 50px;
+}
+.contact-form .form-control {
+    border-radius: 0;
+    padding: 7px 15px;
+    color: var(--body-font-color);
+    border-color: var(--border-colour-two);
+    font-size: 14px;
+}
+
+.contact-form .form-control:focus {
+    border-color: var(--primary);
+}

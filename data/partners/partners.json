@@ -1,0 +1,32 @@
+[
+    {
+        "logoImg": "/assets/img/partners/01.png",
+        "altText": "Comany Name",
+        "link": "/"
+    },
+    {
+        "logoImg": "/assets/img/partners/02.png",
+        "altText": "Comany Name",
+        "link": "/"
+    },
+    {
+        "logoImg": "/assets/img/partners/03.png",
+        "altText": "Comany Name",
+        "link": "/"
+    },
+    {
+        "logoImg": "/assets/img/partners/04.png",
+        "altText": "Comany Name",
+        "link": "/"
+    },
+    {
+        "logoImg": "/assets/img/partners/05.png",
+        "altText": "Comany Name",
+        "link": "/"
+    },
+    {
+        "logoImg": "/assets/img/partners/06.png",
+        "altText": "Comany Name",
+        "link": "/"
+    }
+]

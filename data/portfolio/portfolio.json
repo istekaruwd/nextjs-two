@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "category": "Web development",
+        "thumb": "/assets/img/portfolio/01.jpg",
+        "thumbWidth": "975",
+        "thumbHeight": "650",
+        "link": "/"
+    },
+    {
+        "id": 2,
+        "category": "Web development",
+        "thumb": "/assets/img/portfolio/02.jpg",
+        "thumbWidth": "800",
+        "thumbHeight": "650",
+        "link": "/"
+    },
+    {
+        "id": 3,
+        "category": "Graphic design",
+        "thumb": "/assets/img/portfolio/03.jpg",
+        "thumbWidth": "488",
+        "thumbHeight": "650",
+        "link": "/"
+    },
+    {
+        "id": 4,
+        "category": "Graphic design",
+        "thumb": "/assets/img/portfolio/04.jpg",
+        "thumbWidth": "496",
+        "thumbHeight": "650",
+        "link": "/"
+    },
+    {
+        "id": 5,
+        "category": "Print design",
+        "thumb": "/assets/img/portfolio/05.jpg",
+        "thumbWidth": "488",
+        "thumbHeight": "650",
+        "link": "/"
+    },
+    {
+        "id": 6,
+        "category": "Print design",
+        "thumb": "/assets/img/portfolio/06.jpg",
+        "thumbWidth": "1036",
+        "thumbHeight": "650",
+        "link": "/"
+    },
+    {
+        "id": 7,
+        "category": "branding",
+        "thumb": "/assets/img/portfolio/07.jpg",
+        "thumbWidth": "1040",
+        "thumbHeight": "650",
+        "link": "/"
+    },
+    {
+        "id": 8,
+        "category": "branding",
+        "thumb": "/assets/img/portfolio/08.jpg",
+        "thumbWidth": "975",
+        "thumbHeight": "650",
+        "link": "/"
+    },
+    {
+        "id": 9,
+        "category": "App design",
+        "thumb": "/assets/img/portfolio/09.jpg",
+        "thumbWidth": "974",
+        "thumbHeight": "650",
+        "link": "/"
+    }
+]

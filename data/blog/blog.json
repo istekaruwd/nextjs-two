@@ -1,0 +1,71 @@
+[
+    {
+        "slug": "we-create-experiences",
+        "title": "We create experiences",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nisi veritatis commodi vel, nobis culpa error est pariatur ipsum obcaecati! Debitis nobis praesentium facilis repellat, dolore dignissimos?",
+        "thumb": "/assets/img/blog/01.jpg",
+        "publishDate": "05 Jan 2024",
+        "blogAuthor": "admin",
+        "category": "Web development",
+        "tag": ["Web", "Development", "App"],
+        "btnText": "Read more",
+        "comments": [
+            {
+                "commenterName": "Johnathan doe",
+                "commenterThumb": "/assets/img/blog/avator.png",
+                "commentText": "Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design.",
+                "commentDate": "24 Jan 2024"
+            },
+            {
+                "commenterName": "Steven Johanson",
+                "commenterThumb": "/assets/img/blog/avator.png",
+                "commentText": "Our teams are up to date with the latest technologies, media trends and are keen to prove themselves in this industry.",
+                "commentDate": "25 Jan 2024"
+            }
+        ]
+    },
+    {
+        "slug": "simple-fast-and-fun",
+        "title": "simple fast and fun",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nisi veritatis commodi vel, nobis culpa error est pariatur ipsum obcaecati! Debitis nobis praesentium facilis repellat, dolore dignissimos?",
+        "thumb": "/assets/img/blog/02.jpg",
+        "publishDate": "06 Jan 2024",
+        "blogAuthor": "admin",
+        "category": "Graphic design",
+        "tag": ["Graphic", "Design", "Print"],
+        "btnText": "Read more",
+        "comments": [
+            {
+                "commenterName": "Johnathan doe",
+                "commenterThumb": "/assets/img/blog/avator.png",
+                "commentText": "Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design.",
+                "commentDate": "25 Jan 2024"
+            }
+        ]
+    },
+    {
+        "slug": "get-to-know-the-world",
+        "title": "Get to know the world",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nisi veritatis commodi vel, nobis culpa error est pariatur ipsum obcaecati! Debitis nobis praesentium facilis repellat, dolore dignissimos?",
+        "thumb": "/assets/img/blog/03.jpg",
+        "publishDate": "07 Jan 2024",
+        "blogAuthor": "admin",
+        "category": "Seo marketing",
+        "tag": ["Seo", "Marketing", "Barnding"],
+        "btnText": "Read more",
+        "comments": [
+            {
+                "commenterName": "Johnathan doe",
+                "commenterThumb": "/assets/img/blog/avator.png",
+                "commentText": "Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design.",
+                "commentDate": "26 Jan 2024"
+            },
+            {
+                "commenterName": "Steven Johanson",
+                "commenterThumb": "/assets/img/blog/avator.png",
+                "commentText": "Our teams are up to date with the latest technologies, media trends and are keen to prove themselves in this industry.",
+                "commentDate": "27 Jan 2024"
+            }
+        ]
+    }
+]

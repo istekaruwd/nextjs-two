@@ -1,0 +1,75 @@
+/* PortFolio Nav */
+
+.portfolio-menu {
+    margin: 50px 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.portfolio-menu button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.portfolio-menu button.active-port {
+    color: var(--primary);
+}
+
+/* Single Portfolio */
+
+.port-con {
+    position: relative;
+    overflow: hidden;
+}
+.port-con:hover .port-overlay {
+    transform: rotate(45deg) scale(3, 2);
+    visibility: visible;
+    background-color: var(--opacity-65);
+}
+.port-con:hover .port-txt {
+    opacity: 1;
+    visibility: visible;
+}
+.port-txt {
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    z-index: 2;
+    transition: var(--transition);
+    visibility: hidden;
+    opacity: 0;
+}
+.port-txt ul {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.port-txt ul li button,
+.port-txt ul li a {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.port-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    transform: rotate(45deg) scale(0, 2);
+    transition: var(--transition-3s);
+    visibility: hidden;
+}

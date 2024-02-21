@@ -1,0 +1,56 @@
+.video-area {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.video-modal-bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+.video-modal-bg img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.video-modal-bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--black);
+    opacity: 0.65;
+}
+
+.video-btn {
+    display: flex;
+    justify-content: center;
+}
+.video-btn button {
+    background-color: transparent;
+    border: 0;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon svg {
+    font-size: 40px;
+    color: var(--white);
+}
+.icon:active::before,
+.icon:focus::before,
+.icon:hover::before {
+    content: '';
+    position: absolute;
+    border: 6px solid var(--primary);
+    inset: 0;
+    border-radius: 50%;
+    animation: 1s temRippleOut;
+}

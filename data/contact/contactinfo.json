@@ -1,0 +1,20 @@
+[
+    {
+        "icon": "/assets/img/contact/icon-01.svg",
+        "info": ["121 Kafrul Street, Melbrone, Australia-3200"]
+    },
+    {
+        "icon": "/assets/img/contact/icon-02.svg",
+        "info": [
+            "+123-456-789-000",
+            "+321-654-987-000"
+        ]
+    },
+    {
+        "icon": "/assets/img/contact/icon-03.svg",
+        "info": [
+            "info@portlio.com",
+            "support@portlio.com"
+        ]
+    }
+]

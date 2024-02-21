@@ -1,0 +1,28 @@
+.about-thumb {
+    margin-top: 50px;
+}
+.single-feature {
+    margin-top: 50px;
+}
+.single-feature h3 {
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    font-size: 24px;
+}
+.single-feature p {
+    margin: 15px 0 0;
+    font-size: 14px;
+}
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-icon img {
+    width: 30px;
+    height: auto;
+}

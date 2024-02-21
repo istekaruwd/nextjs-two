@@ -1,0 +1,31 @@
+.section-title h2 {
+    position: relative;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.section-title h2::before,
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+}
+.section-title h2::after {
+    z-index: 1;
+    width: 55px;
+    background-color: var(--primary);
+}
+
+.section-title h2::before {
+    width: 0;
+    transition: all 0.5s ease;
+    z-index: 2;
+    background-color: var(--body-font-color);
+}
+.section-title:hover h2::before {
+    width: 55px;
+}
+.section-title p {
+    margin-top: 15px;
+}

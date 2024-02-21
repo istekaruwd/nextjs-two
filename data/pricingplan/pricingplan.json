@@ -1,0 +1,47 @@
+[
+    {
+        "planName": "Standard",
+        "icon": "/assets/img/pricing/icon-01.svg",
+        "planPrice": "$250",
+        "subscribePlan": "Per Month",
+        "btnText": "Choose plan",
+        "btnLink": "/",
+        "planFeatures": [
+            "1 GB Storage",
+            "Secure Online Transfer",
+            "Unlimited Styles",
+            "Customer Service",
+            "Manual Backup"
+        ]
+    },
+    {
+        "planName": "Business",
+        "icon": "/assets/img/pricing/icon-02.svg",
+        "planPrice": "$350",
+        "subscribePlan": "Per Month",
+        "btnText": "Choose plan",
+        "btnLink": "/",
+        "planFeatures": [
+            "2 GB Storage",
+            "Secure Online Transfer",
+            "Unlimited Styles",
+            "Customer Service",
+            "Manual Backup"
+        ]
+    },
+    {
+        "planName": "Ultimate",
+        "icon": "/assets/img/pricing/icon-03.svg",
+        "planPrice": "$450",
+        "subscribePlan": "Per Month",
+        "btnText": "Choose plan",
+        "btnLink": "/",
+        "planFeatures": [
+            "Unlimited Storage",
+            "Secure Online Transfer",
+            "Unlimited Styles",
+            "Customer Service",
+            "Manual Backup"
+        ]
+    }
+]

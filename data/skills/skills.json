@@ -1,0 +1,18 @@
+[
+    {
+        "skillName": "Html",
+        "skillValue": 85
+    },
+    {
+        "skillName": "Css",
+        "skillValue": 70
+    },
+    {
+        "skillName": "React js",
+        "skillValue": 80
+    },
+    {
+        "skillName": "Next js",
+        "skillValue": 75
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Bryan m. melendez",
+        "designation": "Ceo",
+        "thumb": "/assets/img/team/01.jpg",
+        "facebookUrl": "/",
+        "twitterUrl": "/",
+        "linkedinInUrl": "/"
+    },
+    {
+        "name": "Michael bierut",
+        "designation": "Web developer",
+        "thumb": "/assets/img/team/02.jpg",
+        "facebookUrl": "/",
+        "twitterUrl": "/",
+        "linkedinInUrl": "/"
+    },
+    {
+        "name": "Paul rand",
+        "designation": "Graphic designer",
+        "thumb": "/assets/img/team/03.jpg",
+        "facebookUrl": "/",
+        "twitterUrl": "/",
+        "linkedinInUrl": "/"
+    }
+]

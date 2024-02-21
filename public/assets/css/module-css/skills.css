@@ -1,0 +1,19 @@
+.single-skill {
+    margin-top: 50px;
+    text-align: center;
+}
+.single-skill svg {
+    width: 180px;
+}
+.single-skill svg .CircularProgressbar-path {
+    stroke: var(--primary);
+}
+.single-skill svg .CircularProgressbar-text {
+    fill: var(--heading-font-color);
+    font-size: 16px;
+}
+.single-skill h3 {
+    margin: 25px 0 0;
+    text-transform: uppercase;
+    font-size: 24px;
+}

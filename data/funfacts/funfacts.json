@@ -1,0 +1,22 @@
+[
+    {
+        "counterNumber": 10,
+        "counterText": "Team member",
+        "icon": "/assets/img/funfact/icon-01.svg"
+    },
+    {
+        "counterNumber": 2846,
+        "counterText": "Project done",
+        "icon": "/assets/img/funfact/icon-02.svg"
+    },
+    {
+        "counterNumber": 5829,
+        "counterText": "Cup of coffee",
+        "icon": "/assets/img/funfact/icon-03.svg"
+    },
+    {
+        "counterNumber": 495,
+        "counterText": " Happy clients",
+        "icon": "/assets/img/funfact/icon-04.svg"
+    }
+]

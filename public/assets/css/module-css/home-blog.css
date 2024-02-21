@@ -1,0 +1,97 @@
+.single-home-blog {
+    margin-top: 50px;
+    box-shadow: 0 0 3px var(--opacity-10);
+}
+.single-home-blog:hover .home-blog-overlay {
+    transform: rotate(45deg) scale(1.5, 2);
+    visibility: visible;
+}
+.single-home-blog:hover .home-blog-overlay-link {
+    opacity: 1;
+    visibility: visible;
+}
+
+.home-blog-thumb {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.home-blog-thumb img {
+    width: 100%;
+}
+.home-blog-overlay {
+    position: absolute;
+    inset: 0;
+    transform: rotate(45deg) scale(0, 2);
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    z-index: 1;
+    background-color: var(--opacity-65);
+}
+
+.home-blog-overlay-link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+.home-blog-overlay-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    color: var(--white);
+}
+.home-blog-overlay-link a svg {
+    line-height: 50px;
+}
+.home-blog-con {
+    padding: 015px;
+}
+.home-blog-con p {
+    margin-bottom: 15px;
+}
+.home-blog-title {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.home-blog-title a {
+    text-decoration: none;
+    font-size: 24px;
+}
+.home-blog-date {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.home-blog-read-btn {
+    display: flex;
+    justify-content: flex-start;
+}
+.home-blog-read-btn a {
+    text-transform: uppercase;
+    color: var(--body-font-color);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+.home-blog-read-btn a:hover {
+    color: var(--primary);
+}
+.home-blog-view-btn {
+    margin: 80px 0 0;
+    display: flex;
+    justify-content: center;
+}
